@@ -16,6 +16,34 @@ app.secret_key = os.environ.get("SESSION_SECRET", "default_secret_key")
 DATA_DIR = "data"
 TASKS_FILE = os.path.join(DATA_DIR, "tasks.json")
 
+if not os.path.exists(DATA_DIR):
+    os.makedirs(DATA_DIR)
+
+# Initialize tasks.json if it doesn't exist
+if not os.path.exists(TASKS_FILE):
+    with open(TASKS_FILE, 'w') as f:
+        json.dump([], f)
+
+
+def load_tasks():
+    """Load tasks from the JSON file."""
+    try:
+        with open(TASKS_FILE, 'r') as f:
+            return json.load(f)
+    except Exception as e:
+        logger.error(f"Error loading tasks: {e}")
+        return []
+
+
+def save_tasks(tasks):
+    """Save tasks to the JSON file."""
+    try:
+        with open(TASKS_FILE, 'w') as f:
+            json.dump(tasks, f, indent=2)
+        return True
+    except Exception as e:
+        logger.error(f"Error saving tasks: {e}")
+        return False
 
 
 if __name__ == '__main__':
