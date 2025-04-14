@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Develop New Client Portal",
+    "description": "Create a responsive client portal to allow clients to track their project progress and manage their accounts. The portal should include dashboard, file sharing, and communication features.",
+    "department": "IT",
+    "assignedTo": "John Murphy",
+    "priority": "Low",
+    "status": "In Progress",
+    "id": 1,
+    "createdAt": "2025-04-14T09:30:00.000Z",
+    "updatedAt": "2025-04-14T16:00:41.570621"
+  },
+  {
+    "id": 2,
+    "title": "Q2 Marketing Campaign",
+    "description": "Plan and execute the Q2 marketing campaign focusing on our new software solutions. This includes creating content, organizing webinars and coordinating with the sales team.",
+    "department": "Marketing",
+    "assignedTo": "Sarah Kelly",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-04-13T14:15:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Staff Training Program",
+    "description": "Develop a comprehensive training program for new employees. The program should cover company policies, technical skills, and soft skills development.",
+    "department": "HR",
+    "assignedTo": "Emma O'Connor",
+    "priority": "Medium",
+    "status": "Review",
+    "createdAt": "2025-04-12T10:00:00.000Z",
+    "updatedAt": "2025-04-14T11:30:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Server Infrastructure Upgrade",
+    "description": "Upgrade the company's server infrastructure to improve performance and security. This includes hardware replacements, software updates, and migration of existing data.",
+    "department": "IT",
+    "assignedTo": "David Walsh",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2025-04-14T08:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "title": "Client Proposal for ABC Corp",
+    "description": "Prepare a comprehensive proposal for ABC Corp including project scope, timeline, cost estimates, and implementation plan. Coordinate with the technical team for accurate specifications.",
+    "department": "Sales",
+    "assignedTo": "Michael Byrne",
+    "priority": "High",
+    "status": "Completed",
+    "createdAt": "2025-04-10T09:00:00.000Z",
+    "updatedAt": "2025-04-13T16:45:00.000Z"
+  },
+  {
+    "id": 6,
+    "title": "Quarterly Financial Report",
+    "description": "Prepare the Q1 2025 financial report including revenue analysis, expense breakdown, profitability metrics, and projections for Q2. The report should be ready for the board meeting.",
+    "department": "Finance",
+    "assignedTo": "Aoife Lynch",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-04-05T11:20:00.000Z",
+    "updatedAt": "2025-04-12T10:15:00.000Z"
+  }
+]
